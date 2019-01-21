@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+  <head>
+    <title>Busca</title>
+    <meta charset="utf-8">   
+    <link rel="stylesheet" type= "text/css" href="css/busca-colaborador.css">  
+    <link link rel="shortcut icon" href="css/logo.jpg"/>
+	</head>
+  <body>
+    <header class="busca"> 
+      <h2>Buscar Colaborador</h2> 
+    </header>  
+    <label for="filtrar-tabela"></label>
+    <input type="text" name="filtro" id="filtrar-tabela" placeholder="Nome do colaborador ou skill">
+     <button id="btnBusca">Buscar</button>
+      <table> 
+        <thead> 
+          <tr id= "marcadores"> 
+            <th> Nome</th> 
+            <th> Unidade</th> 
+            <th> Projeto </th> 
+            <th> Skills</th>
+            <th> Status</th> 
+            <th> Previsão de término do Projeto</th> 
+            <th> Término de Participação no Projeto</th>
+            <th> Período de Férias</th> 
+           </tr> 
+          </thead>   
+          <tbody id="tabela-colaboradores">
+            <tr class="colaborador"> 
+             <td class="info-nome"> Mulher Maravilha </td> 
+             <td class="info-unidade"> Boa Vista</td> 
+             <td class= "info-projeto"> Itau345</td> 
+             <td class="info-skill"> Java, PHP, JS, HTML, CSS</td>
+             <td class="info-status"> Em andamento</td> 
+             <td class="info-previsao"> Junho/2019</td>
+             <td class="info-termino"> Maio/2019</td>
+             <td class="info-ferias"> Novembro/2019</td> 
+            </tr> 
+
+              <tr class="colaborador"> 
+             <td class="info-nome"> Pantera Negra </td> 
+             <td class="info-unidade"> Alphaville</td> 
+             <td class= "info-projeto"> Bradesco</td> 
+             <td class="info-skill"> Python, JSNode, HTML, CSS e JS </td>
+             <td class="info-status"> Interrompido</td> 
+             <td class="info-previsao"> Agosto/2019</td>
+             <td class="info-termino"> Fevereiro/2019</td>
+             <td class="info-ferias"> Julho/2019</td> 
+            </tr>   
+
+            <tr class="colaborador"> 
+             <td class="info-nome"> Wolverine </td> 
+             <td class="info-unidade"> Boa Vista</td> 
+             <td class= "info-projeto"> XWZ</td> 
+             <td class="info-skill"> HTML, CSS, JS e PHP</td>
+             <td class="info-status"> Início</td> 
+             <td class="info-previsao"> Março/2019</td>
+             <td class="info-termino"> Janeiro/2019</td>
+             <td class="info-ferias"> Abril/2019</td> 
+            </tr>   
+
+          <tr class="colaborador"> 
+             <td class="info-nome"> Acquaman </td> 
+             <td class="info-unidade"> Boa Vista</td> 
+             <td class= "info-projeto"> Itaú</td> 
+             <td class="info-skill"> Java</td>
+             <td class="info-status"> Em andamento</td> 
+             <td class="info-previsao"> Novembro/2019</td>
+             <td class="info-termino"> Novembro/2019</td>
+             <td class="info-ferias"> Dezembro/2019</td> 
+            </tr>  
+
+            <tr class="colaborador"> 
+             <td class="info-nome"> Ciclope </td> 
+             <td class="info-unidade"> Boa Vista</td> 
+             <td class= "info-projeto"> Santander</td> 
+             <td class="info-skill"> HTML, CSS, JS e PHP</td>
+             <td class="info-status"> Concluído</td> 
+             <td class="info-previsao"> Janeiro/2019</td>
+             <td class="info-termino"> Dezembro/2018</td>
+             <td class="info-ferias"> Outubro/2019</td> 
+            </tr>  
+            </tbody>   
+                </table>  
+    <footer class="rodape-pagina">
+		<p>BRQ 2019.<br/><br/>Todos os direitos reservados.</p> 
+   </footer>  
+   <script type="text/javascript" src="js/busca-colaborador.js"></script>
+  </body>
+</html>

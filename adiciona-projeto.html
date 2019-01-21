@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+	<title>Novo Projeto</title>
+	<link rel="stylesheet" href="css/adiciona-projeto.css"> 
+	<link link rel="shortcut icon" href="css/logo.jpg">
+	<meta charset="UTF-8">
+</head>
+
+<form id="borda">
+<div id="formulario-box">
+	<div id="formulario-box-label">Novo projeto</div>
+	<div id="formulario-interno">
+		<label for="nomeGestor">Nome:</label>
+		<input type="text" id=""nomeGestor>
+	</div>
+	<div id="formulario-interno">
+		<label for="nomeProjeto">Projeto:</label>
+		<input type="text" id="nomeProjeto">
+	</div>
+	<div id="formulario-interno">
+		<label for="dataInicio">Início:</label>
+		<input type="text" id="dataInicio" placeholder="01/01/2019">
+		<label for="dataTermino">Término:</label>
+		<input type="text" id="dataTermino" placeholder="01/01/2019">
+	</div>
+	<div id="formulario-interno">
+		<label for="info">Informações:</label>
+		<textarea id="info"></textarea>
+	</div>
+	<div id="integrantes">
+		<div id="formulario-interno" class="add-integrante">
+			<label for="integrante">Integrante:</label>
+			<input type="search" id="integrante">
+			<label for="skill-integrante">Skill:</label>
+			<select id="skill" name="skill" value="Escolha...">
+				<option>Java</option>
+				<option>JavaScript</option>
+				<option>C++</option>
+				<option>Phyton</option>
+			</select>
+		</div>
+	</div>
+	<button id="botao-mais" type="submit">+</button>
+	<div id="botoes">
+		<button id="botao" type="button" onclick="redireciona()">Enviar</button>
+	</div>
+</div>
+<script type="text/javascript" src="js/adiciona-projeto.js"></script>
+</form>
+	<footer class="rodape-pagina">
+				<p>BRQ 2019.<br/><br/>Todos os direitos reservados.</p> 
+   </footer>  
+  </html>

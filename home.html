@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+ 
+<html> 
+ <head>
+ <title>Home</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="css/home.css"/>
+ <link rel= "stylesheet" href="css/menu.css">
+</head>
+
+<body>
+<div id="menu">
+	<ul>
+		<li>ProjectX</li>
+		<p id="botao-sair"><a href="index.html">Sair</a></p>
+	</ul>
+	
+</div>
+
+ <div class="imageLogo">
+ 	<img src="img/professorx.jpg" alt="Figura">
+ </div>
+<form>
+ 	<div class="formulariocx">
+	 <legend><h3>BRQ - Charles Xavier</h3></legend>
+	</div>
+</form>
+<fieldset class="fieldset"><p>Informações</p>
+		<p id="matricula"> Matrícula: <input type="password" name="tSenha" id="cSenha"></p>
+		<p id="email">Email:  <input type="email" name="tMail" id="cMail" size="20" maxlength="40"/></p>
+	</fieldset>
+ <div class="sidebar">
+ 	
+ 			<p align="center"></p>
+ 			
+ 			<h3>Meus Projetos</h3>
+ 			<fieldset class="fieldset1"><p>Projeto: <input type="text" name="tProjeto" type="cProjeto"></p>
+ 			<fieldset id="Grau">Grau de urgência:<br>
+ 				     <input type="radio" name="tProjeto" id="cAlto"> <label for="cAlto">Alto</label> 
+ 				     <input type="radio" name="tProjeto" id="cMedio"> <label for="cMedio">Médio</label> 
+ 				     <input type="radio" name="tProjeto" id="cBaixo"> <label for="cBaixo">Baixo</label></fieldset>
+ 			<p>Data de Inicio:  <input type="date" name="cInicio"></p>
+ 			<p>Data de Témino:  <input type="date" name="cTermino"></p>
+ 			<fieldset id="Conclusao">Concluído:<br>
+ 			         <input type="radio" name="tConclusao" id="cSim"> <label for="cSim">Sim</label>
+ 			         <input type="radio" name="tConclusao" id="cEm Andamento"> <label for="cEm Andamento">Em Andamento</label>
+ 			         <input type="radio" name="tConclusao" id="cNao"> <label for="cNao">Não</label></fieldset>
+ 			</fieldset>
+ 			<fieldset class="fieldset1">
+ 			<p>Projeto: <input type="text" name="tProjeto" type="cProjeto"></p>
+ 			<fieldset>Grau de urgência:<br>
+ 				     <input type="radio" name="tProjeto" id="cAlto"> <label for="cAlto">Alto</label>
+ 				     <input type="radio" name="tProjeto" id="cMédio"> <label for="cMedio">Médio</label>
+ 				 <input type="radio" name="tProjeto" id="cBaixo"> <label for="cBaixo">Baixo</label></fieldset>
+ 			<p>Data de Inicio:  <input type="date" name="cInicio"></p>
+ 			<p>Data de Témino:  <input type="date" name="cTermino"></p>
+ 			<fieldset id="Conclusao">Concluído:<br>
+ 			         <input type="radio" name="tConclusao" id="cSim">  <label for="cSim">Sim</label>
+ 			         <input type="radio" name="tConclusao" id="cEm Andamento"> <label for="cEm Andamento">Em Andamento</label>
+ 			         <input type="radio" name="tConclusao" id="cNao"> <label for="cNao">Não</label></fieldset><br></fieldset>
+ 	
+   	
+ </div>
+ <div class="button">
+ 	<form action="" method="submit" class="pesquisa">
+ 		<input type="search" placeholder="Busque aqui...">
+ 			<button type="button" onclick="redireciona1()">Enviar</button><br><br>
+
+ 			<input type="create" placeholder="Adicione novo projeto aqui...">
+ 			<button type="button" onclick="redireciona();">Adicionar</button></form>
+ </div>
+ 	<script type="text/javascript" src="js/home.js"></script>
+ 
+</body>
+	<footer class="rodape-pagina">
+				<p>BRQ 2019.<br/><br/>Todos os direitos reservados.</p> 
+   </footer>  
+</html>
